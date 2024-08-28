@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北京化工大学二次元同好站</title>
+    <style>
+        h2 {
+            color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>北京化工大学二次元同好站</h2>
+    <h4>献上可爱的しらたま笔下的loliQWQ~</h4>
+    <img width="400" src="白玉泳装猫猫.jpg" alt="图片未找到" title="白玉老师yyds！">
+    <ul>
+        <li>可爱</li>
+        <li>美丽</li>
+        <li>善良</li>
+    </ul>
+    <form action="data_process.php" method="get" name="regist">
+        请填入注册信息：
+        <table width="700" height="400">
+            <!-- 第一行 -->
+            <tr>
+                <td>
+                    <label for="name">姓名：</label>
+                </td>
+                <td>
+                    <input type="text" name="name" placeholder="请输入姓名" id="name">
+                </td>
+            </tr>
+            <!-- 第二行 -->
+            <tr>
+                <td>
+                    性别:
+                </td>
+                <td>
+                    <input type="radio" name="sex" value="man" id="man" checked="checked"><label for="man">男</label>
+                    <input type="radio" name="sex" value="woman" id="woman"><label for="woman">女</label>
+                    <input type="radio" name="sex" value="unknown_sex" id="unknown_sex"><label
+                        for="unknown_sex">保密</label>
+
+                </td>
+            </tr>
+            <!-- 第三行 -->
+            <tr>
+                <td>
+                    班级：
+                </td>
+                <td>
+                    <select>
+                        <option>计科2301</option>
+                        <option>计科2302</option>
+                        <option>计科2303</option>
+                        <option>计科2304</option>
+                        <option>计科2305</option>
+                        <option>数据2301</option>
+                        <option>数据2302</option>
+                        <option>信工2301</option>
+                        <option>信工2302</option>
+                        <option>智能2301</option>
+                        <option>智能2302</option>
+                        <option>通信2301</option>
+                        <option>通信2302</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- 第四行 -->
+            <tr>
+                <td>
+                    爱好：
+                </td>
+                <td>
+                    <input type="checkbox" name="galgame" value="galgame" id="galgame" checked="checked"><label
+                        for="galgame">galgame(不勾选不能注册)<img width="65" src="咧嘴笑.jpg"></label>
+                    <input type="checkbox" name="basketball" value="basketball" id="basketball"><label
+                        for="basketball">篮球</label>
+                    <input type="checkbox" name="football" value="football" id="football"><label
+                        for="football">足球</label>
+                    <input type="checkbox" name="pingpong" value="pingpong" id="pingpong"><label
+                        for="pingpong">乒乓球</label>
+
+                </td>
+            </tr>
+            <!-- 第五行 -->
+            <tr>
+                <td>
+                    <label for="hometown">籍贯：</label>
+                </td>
+                <td>
+                    <input type="text" name="hometown" placeholder="请输入籍贯" id="hometown">
+                </td>
+            </tr>
+            <!-- 第六行 -->
+            <tr>
+                <td>
+                    <label for="galed">请给出你游玩过的galgame</label>
+                </td>
+                <td>
+                    <textarea cols="50" widths="10" id="galed"></textarea>
+                </td>
+
+            </tr>
+            <!-- 第七行 -->
+            <tr>
+                <td></td>
+                <td>
+                    <input type="button" value="点击注册">
+                </td>
+            </tr>
+
+
+        </table>
+
+    </form>
+    <input type="checkbox" name="accepted" value="accepted" checked="checked" id="accepted"><label
+        for="accepted">我已阅读并同意注册<a href="#" target="_blank">隐私条款</a></label><br />
+    <a href="#" target="_self">已有账户？点击登录</a>
+    <dl>
+        <dt><strong>联系我们</strong></dt>
+        <dd><a href="#" target="_blank">B站</a></dd>
+        <dd><a href="#" target="_blank">QQ</a></dd>
+        <dd><a href="#" target="_blank">微信</a></dd>
+        <dd><a href="#" target="_blank">X</a></dd>
+    </dl>
+</body>
+
+</html>
