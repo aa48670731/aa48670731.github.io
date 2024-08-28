@@ -24,11 +24,19 @@
             <!-- 第二行 -->
             <tr>
                 <td>
-                    <label for="name">姓名：</label>
+                    <label for="name">姓名/账号：</label>
                 </td>
                 <td>
                     <input type="text" name="name" placeholder="请输入姓名" id="name">
                 </td>
+            </tr>
+            <tr>
+                <td><label for="password">密码：</label></td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <td><label for="repassword">再次输入密码：</label></td>
+                <td><input type="password" name="repassword" id="repassword"></td>
             </tr>
             <!-- 第三行 -->
             <tr>
@@ -49,22 +57,25 @@
                     班级：
                 </td>
                 <td>
-                    <select>
-                        <option>计科2301</option>
-                        <option>计科2302</option>
-                        <option>计科2303</option>
-                        <option>计科2304</option>
-                        <option>计科2305</option>
-                        <option>数据2301</option>
-                        <option>数据2302</option>
-                        <option>信工2301</option>
-                        <option>信工2302</option>
-                        <option>智能2301</option>
-                        <option>智能2302</option>
-                        <option>通信2301</option>
-                        <option>通信2302</option>
+                    <p>
+                        <select>
+                            <option>计科2301</option>
+                            <option>计科2302</option>
+                            <option>计科2303</option>
+                            <option>计科2304</option>
+                            <option>计科2305</option>
+                            <option>数据2301</option>
+                            <option>数据2302</option>
+                            <option>信工2301</option>
+                            <option>信工2302</option>
+                            <option>智能2301</option>
+                            <option>智能2302</option>
+                            <option>通信2301</option>
+                            <option>通信2302</option>
 
-                    </select>
+                        </select>
+                    </p>
+                    <p>(如果以上没有则从这里输入<input type="text" name="classes" id="classes" placeholder="请输入班级">)</p>
                 </td>
             </tr>
             <!-- 第五行 -->
@@ -74,13 +85,16 @@
                 </td>
                 <td>
                     <input type="checkbox" name="galgame" value="galgame" id="galgame" checked="checked"><label
-                        for="galgame">galgame(不勾选不能注册)<img width="65" src="咧嘴笑.jpg" alt="图片未找到" title="嘻嘻嘻~"></label>
+                        for="galgame">galgame(不勾选不能注册)<img width="65" src="咧嘴笑.jpg" alt="图片未找到"
+                            title="嘻嘻嘻~"></label><br>
                     <input type="checkbox" name="basketball" value="basketball" id="basketball"><label
                         for="basketball">篮球</label>
                     <input type="checkbox" name="football" value="football" id="football"><label
                         for="football">足球</label>
                     <input type="checkbox" name="pingpong" value="pingpong" id="pingpong"><label
-                        for="pingpong">乒乓球</label>
+                        for="pingpong">乒乓球</label><br>
+                    <input type="checkbox" name="" value="music" id="music"><label for="music">听音乐</label>
+                    <input type="checkbox" name="poker" value="poker" id="poker"><label for="poker">打牌</label>
 
                 </td>
             </tr>
