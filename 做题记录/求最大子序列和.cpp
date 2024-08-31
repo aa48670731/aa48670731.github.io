@@ -20,13 +20,13 @@ int main()
     int n;
     while (cin >> n)
     {
-        int a[1000];
+        int a[100005];
         for (int i = 0; i < n; i++)
         {
             cin >> a[i];
         }
         int res = findmaxsonarray(a, n);
-        cout << res << endl;
+        cout << res << endl; // 只要求输出最大子序列和
     }
     return 0;
 }
